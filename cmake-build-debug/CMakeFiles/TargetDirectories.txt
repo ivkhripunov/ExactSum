@@ -1,0 +1,3 @@
+/home/ivankhripunov/CLionProjects/series_sum/cmake-build-debug/CMakeFiles/series_sum.dir
+/home/ivankhripunov/CLionProjects/series_sum/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ivankhripunov/CLionProjects/series_sum/cmake-build-debug/CMakeFiles/rebuild_cache.dir
