@@ -70,13 +70,10 @@ int main() {
     std::cout.precision(20);
     std::cout << "Эталонная сумма (приведение к double): " << precision_sum_double << std::endl;
     std::cout << "Сумма, посчитанная стандартным способом: " << trivial_double_sum << std::endl;
-    std::cout.precision(100);
     std::cout << "Ошибка стандартного способа: " << boost_sum - precision_trivial_double_sum << std::endl;
     std::cout << "Относительная ошибка стандартного способа: " << (boost_sum - precision_trivial_double_sum) / boost_sum
               << std::endl;
-    std::cout.precision(20);
     std::cout << "Сумма, посчитанная улучшенным методом: " << improved_double_sum << std::endl;
-    std::cout.precision(100);
     std::cout << "Ошибка улучшенного метода: " << boost_sum - precision_improved_double_sum << std::endl;
     std::cout << "Относительная ошибка улучшенного метода: " <<
               abs((boost_sum - precision_improved_double_sum) / boost_sum) << std::endl;
